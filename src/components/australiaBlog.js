@@ -15,7 +15,7 @@ const AustraliaBlog = () => {
             <br></br>
             <div className='blog-container-main'>
                 <div className='blog-content' >
-                    <h1>What is happening with Team Australia?</h1>
+                    <h1>What is happening with Team Australia? </h1>
                     <img src={Image} alt="Team India" />
                     
                     <p>Australia have been bolstered by the return of several important players, including captain Pat Cummins, for the three-match ODI series against India.
