@@ -10,7 +10,7 @@ const BlogCard = (props) => {
                     <div className='blog-details'>
                         <p> {props.text}</p>
                         <div className='blog-buttons'>
-                            <Link to = {props.path} className= "btn"> View</Link>
+                            <Link to = {props.path} className= "btn">View</Link>
                         </div>
         </div>
       
