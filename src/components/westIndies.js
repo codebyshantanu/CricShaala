@@ -16,7 +16,7 @@ const WestIndiesBlog = () => {
                 <div className='blog-content' >
                     <h1>Fate of West Indies Cricket Team</h1>
                     <img src={Image} alt="Team India" />
-                    <p>The journey began with the World Cup 2023 qualifiers, a crucial tournament where teams from around the world vied for a spot in the prestigious event. West Indies entered the qualifiers with high hopes, backed by a talented squad. However, their performance in the tournament was far from what fans had anticipated.
+                    <p> The journey began with the World Cup 2023 qualifiers, a crucial tournament where teams from around the world vied for a spot in the prestigious event. West Indies entered the qualifiers with high hopes, backed by a talented squad. However, their performance in the tournament was far from what fans had anticipated.
 
 One of the glaring issues that plagued the West Indies team was their bowling. Despite possessing some exceptional bowlers, they struggled to contain opposition batsmen. Inconsistencies in line and length, as well as a lack of effective strategies, contributed to their downfall.
 <div style={{margin:"10px 0"}} >Just when the disappointment of the World Cup qualifiers had settled in, West Indies found themselves facing a formidable opponent in India. Although India was missing some of its big names like Virat Kohli and Rohit Sharma, they remained a force to be reckoned with.
