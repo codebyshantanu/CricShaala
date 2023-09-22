@@ -1,0 +1,58 @@
+/* teamIndia.css */
+
+.blog-container-main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding-bottom: 3rem;
+  }
+  
+  .blog-content {
+    max-width: 90%; /* Adjust the maximum width as needed */
+    text-align: center; /* Center text within the div */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Ensure padding doesn't expand the container */
+    color: black;
+ background-color: rgb(255, 255, 255);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+ padding-bottom: 3rem;
+  }
+  
+  .blog-content img { 
+    max-height: 600px; 
+    width: 100%;
+    margin-bottom: 20px;  
+    background-size: cover;
+    background-position: center;
+  }
+
+  .blog-content p {
+    margin: 0; /* Remove default margins on paragraphs */
+    color: black;
+    text-align: justify;
+  }
+
+  .blog-content h1{
+    margin: 1.5rem;
+    color: rgb(19, 18, 18);
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .blog-container-main {
+      margin-top: 50px; 
+    }
+  
+ .blog-content {
+      padding: 10px;
+    }
+  
+    .blog-content img {
+      max-height: auto;
+    }
+  }

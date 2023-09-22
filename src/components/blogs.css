@@ -1,0 +1,62 @@
+.blog-heading {
+    text-align: center;
+    padding: 2rem;
+}
+
+.blog-container{
+max-width : 1040px;
+margin : auto;
+display : grid;
+grid-template-columns : repeat(3,1fr);
+grid-gap : 40px;
+padding-bottom: 5rem;
+}
+
+.blog-card{
+    background: #1a1919;
+    padding : 1.2rem 1rem;
+
+}
+
+.blog-card img{
+    width:100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-title{
+    color : #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.blog-details p {
+    padding-bottom : 1rem;
+    font-size : 1rem;
+    text-align : justify;
+    
+}
+
+.blog-buttons{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 740px){
+    .blog-container{
+        max-width : 90%;
+        margin : auto;
+
+        grid-template-columns : 1fr
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .blog-title,
+    .blog-details p {
+      white-space: normal;
+      text-overflow: initial;
+    }
+  }
