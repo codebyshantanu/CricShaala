@@ -8,7 +8,7 @@ const BlogCard = (props) => {
                     <img src={props.imgsrc} alt='image'/>
                     <h2 className='blog-title'>{props.title}</h2>
                     <div className='blog-details'>
-                        <p>{props.text}</p>
+                        <p> {props.text}</p>
                         <div className='blog-buttons'>
                             <Link to = {props.path} className= "btn"> View</Link>
                         </div>
